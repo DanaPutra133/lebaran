@@ -13,6 +13,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column; /* Ensure vertical alignment */
+  padding: 20px; /* Add padding to prevent content from touching screen edges */
   overflow: hidden;
 }
 
@@ -49,6 +51,7 @@ body {
   opacity: 0;
   transform: translateY(20px);
   animation: slideUp 1s ease forwards 2.5s;
+  margin: 0 auto; /* Center horizontally */
 }
 
 #image-gif {
